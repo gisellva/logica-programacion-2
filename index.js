@@ -1,7 +1,7 @@
 function calcular() {
     const temperaturainput = parseFloat(document.getElementById("temperatura").value);
-    const parrafoFahrenheit = document.getElementById("Fahrenheit"); // Cambiado a "Fahrenheit" con "F" en mayúscula
-    const parrafoKelvin = document.getElementById("Kelvin"); // Cambiado a "Kelvin" con "K" en mayúscula
+    const parrafoFahrenheit = document.getElementById("Fahrenheit"); 
+    const parrafoKelvin = document.getElementById("Kelvin"); 
     const Fahrenheit = (temperaturainput * 9 / 5) + 32;
     const kelvin = temperaturainput + 273.15;
     
